@@ -1261,42 +1261,4 @@ header a:hover {
 .reveal-on-scroll.is-visible {
     opacity: 1;
     transform: translateY(0) scale(1);
-}/* Motion Portfolio bigger + tighter */
-.reels-grid,
-.reel-grid,
-.motion-grid,
-.portfolio-grid,
-.work-grid {
-  display: grid !important;
-  grid-template-columns: repeat(4, 240px) !important;
-  justify-content: center !important;
-  gap: 18px !important;
-  max-width: 1050px !important;
-  margin: 0 auto !important;
-  padding: 20px 16px !important;
-}
-
-.reel-card,
-.motion-card,
-.portfolio-card,
-.work-card,
-.video-card {
-  width: 240px !important;
-  height: 410px !important;
-  margin: 0 !important;
-}
-
-.reel-card video,
-.reel-card img,
-.motion-card video,
-.motion-card img,
-.portfolio-card video,
-.portfolio-card img,
-.work-card video,
-.work-card img,
-.video-card video,
-.video-card img {
-  width: 100% !important;
-  height: 320px !important;
-  object-fit: cover !important;
 }
