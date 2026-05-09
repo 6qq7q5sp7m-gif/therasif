@@ -114,7 +114,7 @@ nav a:hover,
   display: grid;
   min-height: 860px;
   place-items: center;
-  overflow: hidden;
+  overflow: visible;
   padding: 130px clamp(18px, 5vw, 70px) 240px;
   text-align: center;
 }
