@@ -1268,3 +1268,37 @@ header a:hover {
 }
 
 
+.reel-card {
+  height: auto !important;
+  overflow: visible !important;
+  background: transparent !important;
+}
+
+.reel-card video,
+.reel-card img {
+  width: 100% !important;
+  height: 360px !important;
+  object-fit: cover !important;
+  border-radius: 28px !important;
+}
+
+.reel-card > div {
+  position: static !important;
+  padding: 14px 6px 0 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+}
+
+.reel-card span {
+  font-size: 20px !important;
+  line-height: 1.1 !important;
+  color: white !important;
+  text-shadow: none !important;
+}
+
+.reel-card a {
+  font-size: 15px !important;
+  color: rgba(255,255,255,0.65) !important;
+}
