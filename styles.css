@@ -1000,7 +1000,7 @@ footer a {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .work-card,
   .work-card.large,
   .work-card.wide {
