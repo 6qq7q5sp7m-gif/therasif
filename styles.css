@@ -1262,3 +1262,23 @@ header a:hover {
     opacity: 1;
     transform: translateY(0) scale(1);
 }
+.reel-card {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.reel-card > div {
+  position: absolute !important;
+  left: 18px !important;
+  right: 18px !important;
+  bottom: 22px !important;
+  z-index: 5 !important;
+}
+
+.reel-card span {
+  display: block !important;
+  font-size: 22px !important;
+  line-height: 1.05 !important;
+  color: white !important;
+  text-shadow: 0 8px 25px rgba(0,0,0,0.8) !important;
+}
